@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#1a1a2e"/>
+  <rect x="50" y="50" width="700" height="350" rx="12" fill="#16213e"/>
+  <rect x="100" y="100" width="600" height="40" rx="6" fill="#0f3460"/>
+  <text x="400" y="125" text-anchor="middle" fill="#e94560" font-family="monospace" font-size="16">ShopSwift</text>
+  <rect x="100" y="170" width="180" height="100" rx="8" fill="#0f3460" opacity="0.5"/>
+  <rect x="310" y="170" width="180" height="100" rx="8" fill="#0f3460" opacity="0.5"/>
+  <rect x="520" y="170" width="180" height="100" rx="8" fill="#0f3460" opacity="0.5"/>
+  <text x="400" y="320" text-anchor="middle" fill="#a8a8a8" font-family="monospace" font-size="12">Full-featured e-commerce · Stripe · Supabase</text>
+</svg>
