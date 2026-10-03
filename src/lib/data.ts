@@ -187,6 +187,7 @@ export const EXPERIENCE: Experience[] = [
     role: "Software Engineer",
     company: "Paroksya",
     companyHref: "https://paroksya.com",
+    linkedinHref: "https://www.linkedin.com/company/paroksya/posts/",
     startDate: "2024-06",
     current: true,
     description:
@@ -195,7 +196,8 @@ export const EXPERIENCE: Experience[] = [
   {
     role: "Intern",
     company: "LogWinTech Infotech",
-    companyHref: "https://example.com",
+    companyHref: "https://logwintech.com/",
+    linkedinHref: "https://www.linkedin.com/company/logwintech-pvt-ltd/home/",
     startDate: "2024-01",
     endDate: "2024-06",
     current: false,

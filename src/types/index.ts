@@ -40,6 +40,7 @@ export interface Experience {
   role: string
   company: string
   companyHref?: string
+  linkedinHref?: string
   startDate: string
   endDate?: string
   description: string

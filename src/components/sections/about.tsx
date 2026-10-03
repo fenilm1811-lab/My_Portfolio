@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Calendar, ExternalLink } from "lucide-react"
+import { LinkedinIcon } from "@/components/ui/icons"
 import { Container } from "@/components/layout/container"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -79,20 +80,34 @@ export default function About() {
                     <div className="flex flex-wrap items-baseline justify-between gap-2">
                       <div>
                         <p className="font-semibold">{exp.role}</p>
-                        {exp.companyHref ? (
-                          <Link
-                            href={exp.companyHref}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-sm text-muted-foreground hover:text-accent hover:underline"
-                          >
-                            {exp.company}
-                          </Link>
-                        ) : (
-                          <p className="text-sm text-muted-foreground">
-                            {exp.company}
-                          </p>
-                        )}
+                        <div className="flex flex-wrap items-center gap-3">
+                          {exp.companyHref ? (
+                            <Link
+                              href={exp.companyHref}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-sm text-muted-foreground hover:text-accent hover:underline"
+                            >
+                              {exp.company}
+                            </Link>
+                          ) : (
+                            <p className="text-sm text-muted-foreground">
+                              {exp.company}
+                            </p>
+                          )}
+                          {exp.linkedinHref && (
+                            <Link
+                              href={exp.linkedinHref}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              aria-label={`${exp.company} on LinkedIn`}
+                              className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-accent hover:underline"
+                            >
+                              <LinkedinIcon className="h-3.5 w-3.5" />
+                              LinkedIn
+                            </Link>
+                          )}
+                        </div>
                       </div>
                       <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
                         <Calendar className="h-3.5 w-3.5" />
