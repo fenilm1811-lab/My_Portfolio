@@ -1,4 +1,5 @@
 import "@/app/globals.css"
+import { Analytics } from "@vercel/analytics/next"
 import { type Viewport } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { ThemeProvider } from "@/components/ui/theme-toggle"
@@ -59,6 +60,7 @@ export default function RootLayout({
             </div>
           </Loader>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
