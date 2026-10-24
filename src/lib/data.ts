@@ -90,6 +90,27 @@ export const SKILLS: Skill[] = [
 
 export const PROJECTS: Project[] = [
   {
+    id: "sillynutrition",
+    title: "SillyNutrition",
+    description:
+      "AI-powered personalised nutrition and fitness platform with meal plans, training programs, and GLP-1 support.",
+    longDescription:
+      "Built SillyNutrition, an AI-driven platform that generates personalised meal plans, workout routines, and nutrition guidance in minutes based on users' goals, preferences, and lifestyle. Features tiered pricing plans, GLP-1-safe programs, and a streamlined questionnaire-to-plan flow.",
+    href: "https://www.sillynutrition.com",
+    image:
+      "/projects/silyproject/screencapture-sillynutrition-dummypage-2026-10-24-09_39_19.png",
+    screenshots: [
+      "/projects/silyproject/screencapture-sillynutrition-dummypage-2026-10-24-09_39_19.png",
+    ],
+    stack: [
+      { name: "Next.js", icon: LayoutDashboard },
+      { name: "AI", icon: Sparkles },
+      { name: "Node.js", icon: Server },
+    ],
+    featured: true,
+    type: "personal",
+  },
+  {
     id: "bhram-ai",
     title: "Bhram AI Admin Panel",
     description:
