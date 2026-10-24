@@ -105,7 +105,7 @@ export const PROJECTS: Project[] = [
     stack: [
       { name: "Next.js", icon: LayoutDashboard },
       { name: "AI", icon: Sparkles },
-      { name: "Node.js", icon: Server },
+      { name: "Supabase", icon: Database },
     ],
     featured: true,
     type: "personal",
